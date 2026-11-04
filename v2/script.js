@@ -11,12 +11,12 @@ const C={
   mapaRec:"https://maps.app.goo.gl/Kbh7tBLWtjKPTT5C7",  // salón (recepción)
   coords:{cer:{lat:-34.6037,lng:-58.3816},rec:{lat:-31.6651535,lng:-68.5369493}},
   whatsapp:"5493814790470",
-  img:{ /* reemplazá por tus fotos (ruta local o URL) */
+  img:{
     hero:"",
     historia: "",
     fin:""},
   galeria:[
-  "img/imagen1.jpeg","img/imagen2.jpeg","img/imagen3.jpeg",
+  "img/imagen7.jpeg","img/imagen2.jpeg","img/imagen3.jpeg",
   "img/imagen4.jpeg","img/imagen5.jpeg","img/imagen6.jpeg"
   ],
   cronograma:[["20:00","Ceremonia Religiosa"],["21:00","Recepción de invitados"],["21:30","Ceremonia Civil"],["22:00","Cena"],["23:00","Primer baile"],["00:00","Fiesta"]],
@@ -28,9 +28,12 @@ const C={
     nota:"Los datos para abonar te los vamos a enviar al confirmar tu asistencia."},
   faq:[
     ["¿Hay estacionamiento?","Sí, habrá estacionamiento disponible en el lugar."],
-    ["¿Puedo llevar niños?","[Información editable]"],
-    ["¿Hay alojamiento cerca?","[Información editable]"],
-    ["¿A qué hora termina?","[Información editable]"]]
+    ["¿Puedo llevar niños?","Si la decisión de llevar niños es tuya, pero tené en cuenta que es un evento de adultos."],
+    ["¿El lugar es cerrado?"," Sí, el lugar tiene tiene un sector abierto y otro cerrado con climatización."],
+    ["¿A qué hora termina?"," La fiesta termina a las 5:00 am."],
+    ["¿Puedo llevar acompañante?","Sí, podés llevar acompañante. En el formulario de RSVP vas a poder indicar cuántos acompañantes vas a traer."],
+    ["¿Qué pasa si no puedo asistir?","Si no podés asistir, te pedimos que nos avises lo antes posible para poder organizar mejor la fiesta."]
+  ]
 };
 /* ================================================== */
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
